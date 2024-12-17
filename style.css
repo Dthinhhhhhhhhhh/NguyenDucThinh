@@ -21,7 +21,7 @@ body {
 	background: white;
 }
 .inline-content {
-	width: 80;
+	width: 80%;
 	display: flex; /* kích hoạt flewbox */
 	align-items: center; /* căn chỉnh ptu con theo chiều dọc vào giữa */
 	justify-content: space-between; /*căn chỉnh ptu con với kcach đều nhau */
