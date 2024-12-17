@@ -1,0 +1,56 @@
+h1 {
+	color: fuchsia;
+	font-family: cursive;
+	text-align: center;
+	text-transform: capitalize;
+}
+h2 {
+	text-transform: capitalize;
+	font-family: cursive;
+}
+h3 {
+	color: yellowgreen;
+	font-family: cursive;
+	text-align: center;
+	text-transform: capitalize;
+}
+p {
+	text-indent: 20px;
+}
+body {
+	background: white;
+}
+.inline-content {
+	width: 80;
+	display: flex; /* kích hoạt flewbox */
+	align-items: center; /* căn chỉnh ptu con theo chiều dọc vào giữa */
+	justify-content: space-between; /*căn chỉnh ptu con với kcach đều nhau */
+}
+.inline-content img {
+	order: 2; /* đặt hanh ở vị trí 2, tức bên trái*/
+	margin-left: 10px; /* tạo kcach giữa vb vs hanh là 10pixel */
+}
+.inline-content span {
+	order: 1; /* đặt hanh ở vị trí 1, tức bên phải*/
+}
+.container {
+	display: flex;
+
+}
+.container img {
+	margin-right: 15px;
+}
+.container img:last-child {
+margin-right: 0;
+}
+.box {
+	display: flex;
+	align-items: center;
+	flex-direction: column; /*sắp xếp ptu con theo dạng cột */
+}
+.text {
+	margin-bottom: 15px;
+}
+input:checked ~ img {
+	display: none;
+}
